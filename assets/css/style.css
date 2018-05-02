@@ -10,6 +10,9 @@
     margin-bottom: 20px;
     border-bottom: 3px solid #cccccc;
 }
+.navbar-nav {
+    flex-direction: row;
+}
 body {
     background-image: url(../images/circles-light.png);
 }
@@ -24,6 +27,12 @@ h2 {
 }
 #about-me {
     padding-top: 20px;
+}
+#portrait {
+    float: left;
+}
+#bioText {
+    float: left;
 }
 #picture-row-1 {
     padding-top:10px;
@@ -75,4 +84,18 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+}
+@media screen and (max-width: 980px) {
+    li {
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .col-sm-3 {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .col-sm-9 {
+        margin-bottom: 50px;
+    }
 }
