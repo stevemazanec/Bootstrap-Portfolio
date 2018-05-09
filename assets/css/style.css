@@ -93,6 +93,10 @@ footer {
     .img-title {
         width: 100%;
     }
+    #psychicGame {
+        height: 200px;
+        width: 200px;
+    }
 }
 @media screen and (max-width: 768px) {
     .col-sm-3 {
@@ -104,5 +108,9 @@ footer {
     }
     .img-title {
         width: 80%;
+    }
+    #psychicgame {
+        height: 200px;
+        width: 200px;
     }
 }
