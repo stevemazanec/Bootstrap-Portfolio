@@ -40,6 +40,10 @@ h2 {
 }
 #picture-row-2 {
     padding-left:10px;
+    padding-bottom: 10px;
+}
+#picture-row-3 {
+    padding-left:10px;
     padding-bottom: 100px;
 }
 .box {
@@ -78,6 +82,10 @@ h2 {
     width: 400px;
 }
 #beatlesTrivia {
+    height: 200px;
+    width: 400px;
+}
+#sportsGifs {
     height: 200px;
     width: 400px;
 }
