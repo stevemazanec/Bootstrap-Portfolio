@@ -14,7 +14,7 @@
     flex-direction: row;
 }
 body {
-    background-image: url(../images/circles-light.png);
+    background-color:black;;
 }
 h2 {
     color: #4aaaa5;
@@ -22,11 +22,25 @@ h2 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .container {
     background-color: white;
+    
 }
+
 #about-me {
     padding-top: 20px;
+    margin-bottom: 25px;
+    ;
+}
+
+#portfolioContainer {
+    padding-top: 20px;
+    margin-bottom: 25px;
+}
+#contactContainer {
+    padding-top: 20px;
+    margin-bottom:75px;;
 }
 #portrait {
     float: left;
@@ -49,6 +63,7 @@ h2 {
 .box {
     position: relative;
 }
+
 
 .img-title {
     position: absolute;
@@ -73,21 +88,24 @@ h2 {
     color: white;
     background-color: #4aaaa5;
 }
-#psychicGame {
-    height: 200px;
-    width: 400px;
-}
 #crystalsGame {
     height: 200px;
-    width: 400px;
+    width: 90%;
 }
 #beatlesTrivia {
     height: 200px;
-    width: 400px;
+    width: 90%;
 }
-#sportsGifs {
+#politicalTwitter {
     height: 200px;
-    width: 400px;
+    width: 90%;
+}
+#trainScheduler {
+    height: 200px;
+    width: 90%;
+}
+.portfolioDescription {
+    width: 90%;
 }
 footer {
     background-color: #666666;
@@ -95,6 +113,7 @@ footer {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 5px;
+    margin-top: 20px;
     font-size: 12px;
     border-top: 6px solid #4aaaa5;
     position: fixed;
@@ -109,10 +128,7 @@ footer {
     .img-title {
         width: 100%;
     }
-    #psychicGame {
-        height: 200px;
-        width: 200px;
-    }
+
 }
 @media screen and (max-width: 768px) {
     .col-sm-3 {
@@ -124,9 +140,5 @@ footer {
     }
     .img-title {
         width: 80%;
-    }
-    #psychicgame {
-        height: 200px;
-        width: 200px;
     }
 }
