@@ -1,1 +1,1 @@
-# Bootstrap-Portfolio
+A portfolio created using bootstrap. This highlights some of my favorite projects and homework assignments that I have built so far. I'm frequently updating it as I create new sites! The live version can be seen at https://stevemazanec.github.io/Bootstrap-Portfolio/
